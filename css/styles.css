@@ -316,7 +316,7 @@ h2 {
     color: var(--color-foot-mail);
     text-decoration: none;
     width: fit-content;
-    font-size: 1.7;
+    font-size: 14px;
 }
 .foot-mail:hover,
 .foot-mail:focus {
