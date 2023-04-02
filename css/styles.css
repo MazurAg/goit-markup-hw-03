@@ -43,7 +43,7 @@ body {
 /* header*/
 .header {
     border-bottom: 1px solid var(--background-color-white);
-    border-bottom: 1px solid #ECECEC;
+    border-bottom: 1px solid #ececec;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .header-logo {
@@ -110,13 +110,20 @@ body {
 
 .title-studio {
     width: 100%;
-    background-color: var(--background-title);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
+.color {
+    background-color: var(--background-title);
+}
+
 .title {
     text-transform: uppercase;
     font-weight: 900;
@@ -133,7 +140,10 @@ body {
     background-color: var(--active-color);
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    padding: 10px 41px;
+    padding: 10px 41px 10px 42px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
 }
 .lorem {
     padding-bottom: 0;
@@ -179,7 +189,7 @@ h2 {
     border-radius: 0px 0px 4px 4px;
     background-color: var(--background-color-white);
 }
-.team /*h3*/{
+.team /*h3*/ {
     text-align: center;
     font-weight: 500;
     font-size: 16px;
@@ -214,6 +224,7 @@ h2 {
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
+    border: none;
 }
 .menu-but .but:hover,
 .menu-but .but:focus {
@@ -236,7 +247,7 @@ h2 {
     gap: 30px;
 }
 .signatur {
-    border: 1px solid #EEEEEE;
+    border: 1px solid #eeeeee;
     border-top: 0;
 }
 .port-cards {
@@ -298,7 +309,6 @@ h2 {
     line-height: 1.7;
     color: var(--color-foot-mail);
     text-decoration-line: underline;
-    
 }
 .foot-mail-studio {
     line-height: 1.7;
