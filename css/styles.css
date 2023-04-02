@@ -308,14 +308,7 @@ h2 {
 .foot-mail {
     line-height: 1.7;
     color: var(--color-foot-mail);
-    text-decoration-line: underline;
-    font-size: 14px;
-}
-.foot-mail-studio {
-    line-height: 1.7;
-    color: var(--color-foot-mail);
-    text-decoration: none;
-    width: fit-content;
+    text-decoration-line: none;
     font-size: 14px;
 }
 .foot-mail:hover,
