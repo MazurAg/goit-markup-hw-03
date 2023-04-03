@@ -75,8 +75,8 @@ body {
     display: flex;
     align-items: center;
     gap: 46px;
-    padding-right: 371px;
-    padding-left: 93px;
+    margin-right: 371px;
+    margin-left: 93px;
 }
 .nav {
     font-weight: 500;
