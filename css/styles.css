@@ -63,7 +63,6 @@ body {
     font-size: 26px;
     text-decoration: none;
     color: var(--active-color);
-    padding-right: 93px;
 }
 .studio-black {
     color: var(--color-up);
@@ -77,6 +76,7 @@ body {
     align-items: center;
     gap: 46px;
     padding-right: 371px;
+    padding-left: 93px;
 }
 .nav {
     font-weight: 500;
